@@ -27,9 +27,10 @@ Notes:
   or use the `diff` option `--strip-trailing-cr` to ignore these differences
   in the line break representation.
 
-* While our quine is a *program* emitting its own source code,
-  various JS quines found on the web are *functions* emitting their source
-  code.  A test invocation must explicitly call that function.
+* Various JS quines found on the web are *expressions* or *functions*
+  emitting or evaluating to their source code.
+  A test invocation must explicitly call that expression or function.
+  In contrast, our quine is a *program* emitting its own source code.
 
 * Our requirement above (the program emits its own source code)
   is trivially fulfilled by the empty JS program, which emits nothing.
