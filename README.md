@@ -36,9 +36,9 @@ Notes:
   is trivially fulfilled by the empty JS program, which emits nothing.
   Here I was looking for a non-trivial solution.
 
-* Several JS quines on the web make use of the fact that JS allows to retrieve
+* Many JS quines on the web make use of the fact that JS allows to retrieve
   the source code of a function.  This may be considered cheating.
-  Thus the solution here does not rely on that JS feature.
+  Thus the solution here does not rely on `Function.prototype.toString`.
 
 * I was happy to find a working solution that's even somewhat readable,
   but more simplifications might be possible.
