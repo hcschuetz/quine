@@ -39,5 +39,9 @@ Notes:
   the source code of a function.  This may be considered cheating.
   Thus the solution here does not rely on that JS feature.
 
-* It is probably possible to simplify this solution.
-  I was happy to find a working solution that's even somewhat readable.
+* I was happy to find a working solution that's even somewhat readable,
+  but more simplifications might be possible.
+  To just make the program shorter,
+  one might remove semicolons and some whitespace
+  and one could use a single-letter identifier instead of `bq`.
+  But can you find a more substantial simplification?
