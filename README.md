@@ -31,8 +31,12 @@ Notes:
   various JS quines found on the web are *functions* emitting their source
   code.  A test invocation must explicitly call that function.
 
+* Our requirement above (the program emits its own source code)
+  is trivially fulfilled by the empty JS program, which emits nothing.
+  Here I was looking for a non-trivial solution.
+
 * Several JS quines on the web make use of the fact that JS allows to retrieve
-  the source code of a function.  This can be considered cheating.
+  the source code of a function.  This may be considered cheating.
   Thus the solution here does not rely on that JS feature.
 
 * It is probably possible to simplify this solution.
