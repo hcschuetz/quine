@@ -6,11 +6,11 @@ A [Quine](https://en.wikipedia.org/wiki/Quine_(computing)) in JavaScript for Nod
 Invoking
 
 ```bash
-node quine.js > out.js && diff -s quine.js out.js
+node quine.js | diff -s quine.js -
 ```
 should confirm that
 ```
-Files quine.js and out.js are identical
+Files quine.js and - are identical
 ```
 
 Notes:
